@@ -26,7 +26,7 @@ h6 {
 }
 
 button {
-    border-color: transparent;
+    background-color: transparent;
     cursor: pointer;
     border: none;
 }
@@ -161,6 +161,69 @@ a {
 }
 
 .hero__img {
+    display: inline-block;
     height: 660px;
     width: 482px;
+}
+
+.main {
+    background-color: #343D33;
+}
+
+.container {}
+
+.main__content {}
+
+.main__info {
+    padding-top: 96px;
+}
+
+.flow {
+    width: 534px;
+    height: 354px;
+    margin-right: 89px;
+    margin-bottom: 80px;
+}
+
+.main__excerpt {
+    position: absolute;
+    display: inline-block;
+}
+
+.main__title {
+    font-family: 'Libre Baskerville';
+    font-weight: 400;
+    font-size: 45px;
+    /* line-height: 110%; */
+    color: #FFFFFF;
+    max-width: 418px;
+    margin-bottom: 32px;
+}
+
+.main__subtitle {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    max-width: 402px;
+    margin-bottom: 32px;
+}
+
+.main__btn {
+    align-items: center;
+    padding: 20px 40px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+
+}
+
+.pic {
+    display: block;
+    width: 1040px;
+    height: 409px;
 }
