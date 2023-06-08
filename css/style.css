@@ -45,18 +45,29 @@ a {
 }
 
 .container {
-    max-width: 1220px;
+    max-width: 1200px;
     padding: 0px 10px;
     margin: 0px auto;
 }
 
-.header {}
+
+/* БЛОК HEADER */
+
+.header {
+    width: 100%;
+
+}
 
 
-.header__content {}
+.header__content {
+    display: flex;
+    justify-content: space-between;
+    height: 88px;
+}
 
 .logo {
-    display: inline-block;
+    display: flex;
+    align-items: center;
 }
 
 .logo__icon {
@@ -66,7 +77,7 @@ a {
 }
 
 .intro {
-    display: inline-block;
+    padding-right: 141px;
 }
 
 .intro__title {
@@ -94,6 +105,8 @@ a {
 .nav {}
 
 .nav__list {
+    display: flex;
+    align-items: center;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -105,21 +118,30 @@ a {
 }
 
 .nav__item {
-    display: inline-block;
-    padding: 0px 40px;
+    padding-right: 40px;
 }
 
-.nav__item:hover {
+.nav__item:last-child {
+    padding-right: 0px;
+}
+
+/* .nav__item:hover {
     border: 2px solid #475F45;
     text-align: center;
     padding: 15px 30px;
     width: 169px;
     order: 5;
-}
+} */
+
+
+/* БЛОК HERO */
 
 .hero {}
 
-.hero__content {}
+.hero__content {
+    display: flex;
+    justify-content: space-between;
+}
 
 .title {
     font-family: 'Libre Baskerville';
@@ -161,7 +183,7 @@ a {
 }
 
 .hero__img {
-    display: inline-block;
+
     height: 660px;
     width: 482px;
 }
@@ -169,6 +191,7 @@ a {
 .main {
     background-color: #343D33;
 }
+
 
 .container {}
 
@@ -186,15 +209,15 @@ a {
 }
 
 .main__excerpt {
-    position: absolute;
-    display: inline-block;
+    /* position: absolute; */
+    /* display: inline-block; */
 }
 
 .main__title {
     font-family: 'Libre Baskerville';
     font-weight: 400;
     font-size: 45px;
-    /* line-height: 110%; */
+    line-height: 110%;
     color: #FFFFFF;
     max-width: 418px;
     margin-bottom: 32px;
@@ -207,6 +230,7 @@ a {
     color: #FFFFFF;
     max-width: 402px;
     margin-bottom: 32px;
+    */
 }
 
 .main__btn {
